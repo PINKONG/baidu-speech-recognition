@@ -1,0 +1,23 @@
+{
+    "name": "pinkong/baidu-speech-recognition",
+    "description": "封装百度语音识别api，for Laravel and Lumen applications",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pinkong",
+            "email": "alain.swun@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pinkong\\BaiduSpeechRecognition\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "php": ">=5.4"
+    }
+}
