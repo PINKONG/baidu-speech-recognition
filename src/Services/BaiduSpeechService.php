@@ -8,9 +8,10 @@
 
 namespace Pinkong\BaiduSpeechRecognition;
 
-require_once __DIR__ . '/../../baidu-speech-sdk/AipSpeech.php';
+require_once __DIR__ . '/../baidu-speech-sdk/AipSpeech.php';
 
 use AipSpeech;
+use Illuminate\Support\Facades\Storage;
 use Pinkong\BaiduSpeechRecognition\Exceptions\Exception;
 
 

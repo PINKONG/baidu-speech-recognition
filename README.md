@@ -34,6 +34,14 @@ If you are using Laravel, add the service provider to the providers array in `co
 ]
 ```
 
+as optional, you can use facade:
+```php
+    'aliases' => [
+        'SpeechHelper' => Pinkong\BaiduSpeechRecognition\SpeechHelper::class,
+    ],
+
+```
+
 If you are using Lumen, append the following code to `bootstrap/app.php`:
 
 ```php
