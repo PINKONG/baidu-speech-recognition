@@ -6,7 +6,7 @@
  * Time: 下午2:16
  */
 
-namespace Pinkong\BaiduSpeechRecognition;
+namespace Pinkong\BaiduSpeechRecognition\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

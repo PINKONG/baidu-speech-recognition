@@ -6,7 +6,7 @@
  * Time: 下午2:16
  */
 
-namespace Pinkong\BaiduSpeechRecognition;
+namespace Pinkong\BaiduSpeechRecognition\Services;
 
 require_once __DIR__ . '/../baidu-speech-sdk/AipSpeech.php';
 

@@ -1,8 +1,9 @@
 <?php
 
-namespace Pinkong\BaiduSpeechRecognition;
+namespace Pinkong\BaiduSpeechRecognition\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Pinkong\BaiduSpeechRecognition\Services\BaiduSpeechService;
 
 class BaiduSpeechServiceProvider extends ServiceProvider
 {
